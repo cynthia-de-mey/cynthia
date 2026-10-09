@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+      <link rel="stylesheet" href="CSS/estilos.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Sobre Mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Curriculum</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-7 text-start mt-5">
+            <h1>Hola! soy Cynthia De Mey</h1>
+            <p class="mt-4">
+                Analista Digital con más de 6 años de experiencia en comercio
+                electrónico, UX y optimización de procesos.
+                Actualmente me estoy especializando en Python, Testing de
+                Aplicaciones, Business Intelligence y desarrollo web, combinando mi
+                experiencia en negocios con un perfil cada vez más técnico.
+            </p>
+            <p>
+                En este portfolio comparto los proyectos que forman parte de mi
+                recorrido, las tecnologías que estoy aprendiendo y mi evolución
+                hacia el desarrollo de soluciones digitales con foco en la calidad,
+                la experiencia del usuario y la mejora continua.
+            </p>
+            </div>
+            <div class="col-md-5">
+            <img src="/img/5.jpg" alt="cdm" style="max-width: 350px" />
+            </div>
+        </div>
+        </div>
+    <div class="container text-center">
+      <h2 class="mb-4 mt-4">Mis Proyectos</h2>
+
+      <div
+        class="row row-cols-1 row-cols-md-3 g-4 justify-content-center mx-auto"
+        style="width: 800px"
+      >
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/6.jpg" class="card-img-top" alt="pro1" />
+            <div class="card-body">
+              <h5 class="card-title">Número 1</h5>
+              <p class="card-text">Mi primer proyecto.</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Última actualización hace 5 minutos</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/7.jpg" class="card-img-top" alt="pro2" />
+            <div class="card-body">
+              <h5 class="card-title">Número 2</h5>
+              <p class="card-text">Un poco de esto.</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Última actualización hace 5 minutos</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/8.jpg" class="card-img-top" alt="pro3" />
+            <div class="card-body">
+              <h5 class="card-title">Número 3</h5>
+              <p class="card-text">Un poco de aquello.</p>
+              <p class="card-text">
+                <small class="text-body-secondary">Última actualización hace 5 minutos</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container text-center mt-5">
+     
+<img src="img/11.png" class="card-img-top" style="width: 900px;" alt="pro3"/>
+    
+    </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
